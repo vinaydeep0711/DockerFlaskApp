@@ -21,15 +21,15 @@ Post response codes  - 201 (created), 200(ok), 204(No content)
 3.PUT/ - Put is used to update the existing resource , if resource does not exist then API may decide to create new resource
 Put response codes  - 201 (created), 200(ok), 204(No content)
 
-PATCH/- HTTP Patch request are to make partial update on resources, we should only use PUT if we are replacing resource entirety 
+4.PATCH/- HTTP Patch request are to make partial update on resources, we should only use PUT if we are replacing resource entirety 
 
-DELETE/ - DELETE APIs delete the resources (identified by the Request-URI), DELETE operations are idempotent. If you DELETE a resource, it’s removed from the collection of resources.
+5. DELETE/ - DELETE APIs delete the resources (identified by the Request-URI), DELETE operations are idempotent. If you DELETE a resource, it’s removed from the collection of resources.
 Delete response code -
 
-OPTION/ - Identifying which HTTP methods a resource supports.
+ 6.OPTION/ - Identifying which HTTP methods a resource supports.
 Allow: OPTIONS, GET, HEAD, POST
 
-HEAD - Same as GET but no response body
+7.HEAD - Same as GET but no response body
 
 
 
